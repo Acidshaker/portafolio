@@ -23,14 +23,6 @@ if (windowSize > 768) {
     origin: "top",
     distance: "300 px"
   });
-  // else {
-  //   sr.reveal(".presentation__container--info", {
-  //     duration: 2000,
-  //     origin: "left",
-  //     distance: "300 px"
-  //   });
-  // }
-
 
   sr.reveal(".social__container--items", {
     duration: 2000,
@@ -118,4 +110,12 @@ if (windowSize > 768) {
     distance: "300 px"
   });
 
+}
+
+else {
+  sr.reveal(".presentation__container--info", {
+    duration: 2000,
+    origin: "left",
+    distance: "300 px"
+  });
 }
