@@ -11,11 +11,11 @@ let windowSize = window.innerWidth;
 //   });
 // }
 
-sr.reveal(".vector__container", {
-  duration: 2500,
-  origin: "left",
-  distance: "300 px"
-});
+// sr.reveal(".vector__container", {
+//   duration: 2500,
+//   origin: "left",
+//   distance: "300 px"
+// });
 
 if (windowSize > 768) {
 
@@ -119,12 +119,12 @@ if (windowSize > 768) {
 
 }
 
-else {
-  sr.reveal(".presentation__container--info", {
-    duration: 2000,
-    origin: "right",
-    distance: "300 px"
-  });
+// else {
+//   sr.reveal(".presentation__container--info", {
+//     duration: 2000,
+//     origin: "right",
+//     distance: "300 px"
+//   });
 
   // sr.reveal(".social__container--items", {
   //   duration: 1000,
