@@ -3,13 +3,13 @@ window.sr = ScrollReveal();
 
 let windowSize = window.innerWidth;
 
-if (windowSize > 768) {
-  sr.reveal(".navbar__list", {
-    duration: 3000,
-    origin: "right",
-    distance: "300 px"
-  });
-}
+// if (windowSize > 768) {
+//   sr.reveal(".navbar__list", {
+//     duration: 3000,
+//     origin: "right",
+//     distance: "300 px"
+//   });
+// }
 
 sr.reveal(".vector__container", {
   duration: 2500,
@@ -18,6 +18,13 @@ sr.reveal(".vector__container", {
 });
 
 if (windowSize > 768) {
+
+  sr.reveal(".navbar__list", {
+    duration: 3000,
+    origin: "right",
+    distance: "300 px"
+  });
+
   sr.reveal(".presentation__container--info", {
     duration: 2000,
     origin: "top",
@@ -115,7 +122,19 @@ if (windowSize > 768) {
 else {
   sr.reveal(".presentation__container--info", {
     duration: 2000,
-    origin: "left",
+    origin: "right",
+    distance: "300 px"
+  });
+
+  sr.reveal(".social__container--items", {
+    duration: 2000,
+    origin: "right",
+    distance: "300 px"
+  });
+
+  sr.reveal(".cv__container", {
+    duration: 2000,
+    origin: "right",
     distance: "300 px"
   });
 }
