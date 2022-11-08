@@ -79,6 +79,7 @@ body {
   font-size: var(--normal-font-size);
   margin: 0 auto;
   max-width: 1024px;
+  overflow-x: hidden;
 }
 
 ul {
@@ -415,6 +416,7 @@ h3 {
   gap: 1rem;
   margin: 1.5rem;
   overflow: auto;
+  overflow-y: hidden;
 }
 
 /* Boton escondido de momento */
@@ -643,4 +645,26 @@ h3 {
   .footer__title {
     font-size: 1.5em;
   }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.grid--container {
+  scrollbar-width: auto;
+  scrollbar-color: var(--color-primary) #e0d7d7;
+}
+
+/* Chrome, Edge, and Safari */
+.grid--container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.grid--container::-webkit-scrollbar-track {
+  background: #e0d7d7;
+}
+
+.grid--container::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 11px;
+  border: 3px none #ffffff;
 }
