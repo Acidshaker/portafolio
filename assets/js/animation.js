@@ -192,4 +192,11 @@ else {
     distance: "100 px"
   });
 
+  sr.reveal(".footer__info", {
+    duration: 750,
+    origin: "bottom",
+    distance: "100 px"
+  });
+
+
 }
