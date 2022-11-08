@@ -129,12 +129,12 @@ else {
   sr.reveal(".social__container--items", {
     duration: 1000,
     origin: "top",
-    distance: "150 px"
+    distance: "100 px"
   });
 
   sr.reveal(".cv__container", {
     duration: 1000,
     origin: "bottom",
-    distance: "150 px"
+    distance: "100 px"
   });
 }
