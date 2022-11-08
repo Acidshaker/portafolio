@@ -116,6 +116,7 @@ h3 {
   font-weight: var(--font-bold);
 }
 
+
 /* ============= REUSABLE CLASSES ============= */
 .section {
   padding: 1rem 0;
@@ -422,6 +423,8 @@ h3 {
 
 .portfolio--title {
   margin-left: 1.5rem;
+  /* margin-top: 5rem; */
+  /* padding-top: 3rem; */
 }
 
 .portfolio__container--items {
@@ -452,6 +455,7 @@ h3 {
 
 .portfolio__item--title {
   margin: .5rem;
+  margin-top: 5rem;
 }
 
 /* .portfolio__item--img {
@@ -500,6 +504,7 @@ h3 {
 }
 
 .contact__info {
+  /* margin-top: 5rem; */
   margin: 1.5rem;
 }
 
@@ -594,6 +599,12 @@ h3 {
     font-size: 1.5em;
   }
 
+  /* ============= About ============= */
+
+  .about__title {
+    padding-top: 6rem;
+  }
+
   .academy__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -620,6 +631,9 @@ h3 {
     justify-content: space-around;
   }
 
+  .portfolio--title {
+    padding-top: 6rem;
+  }
 
 
   /* ============= Contact ============= */
