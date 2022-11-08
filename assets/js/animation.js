@@ -126,15 +126,15 @@ else {
     distance: "300 px"
   });
 
-  sr.reveal(".social__container--items", {
-    duration: 1000,
-    origin: "top",
-    distance: "100 px"
-  });
+  // sr.reveal(".social__container--items", {
+  //   duration: 1000,
+  //   origin: "top",
+  //   distance: "100 px"
+  // });
 
-  sr.reveal(".cv__container", {
-    duration: 1000,
-    origin: "bottom",
-    distance: "100 px"
-  });
+  // sr.reveal(".cv__container", {
+  //   duration: 1000,
+  //   origin: "bottom",
+  //   distance: "100 px"
+  // });
 }
