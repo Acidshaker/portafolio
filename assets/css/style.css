@@ -627,7 +627,7 @@ h3 {
   /* ============= Portfolio ============= */
 
   .portfolio__container--items {
-    justify-content: space-around;
+    grid-auto-flow: column;
   }
 
   .portfolio--title {
