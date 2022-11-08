@@ -162,17 +162,17 @@ else {
     distance: "100 px"
   });
 
-  sr.reveal(".portfolio--title", {
+  sr.reveal("#portfolio", {
     duration: 750,
     origin: "top",
     distance: "100 px"
   });
 
-  sr.reveal(".portfolio__container", {
-    duration: 750,
-    origin: "top",
-    distance: "100 px"
-  });
+  // sr.reveal(".portfolio__container", {
+  //   duration: 750,
+  //   origin: "top",
+  //   distance: "100 px"
+  // });
 
   sr.reveal(".contact__info", {
     duration: 750,
