@@ -172,7 +172,8 @@ h3 {
 
 .btn__open {
   color: var(--color-primary);
-  font-size: var(--big-font-size)
+  font-size: var(--big-font-size);
+  padding-top: .5rem;
 }
 
 .navbar__list {

@@ -127,13 +127,13 @@ else {
   });
 
   sr.reveal(".social__container--items", {
-    duration: 2000,
+    duration: 1000,
     origin: "right",
     distance: "300 px"
   });
 
   sr.reveal(".cv__container", {
-    duration: 2000,
+    duration: 1000,
     origin: "right",
     distance: "300 px"
   });
