@@ -170,6 +170,17 @@ h3 {
   padding-right: 1.5rem;
 }
 
+.navbar__link {
+  transition: 0.5s;
+  padding: .3rem;
+  border-radius: 15px;
+}
+
+.navbar__link:hover {
+  background-color: #34b0bE;
+  color: #fff;
+}
+
 .btn__open {
   color: var(--color-primary);
   font-size: var(--big-font-size);
@@ -534,17 +545,6 @@ h3 {
     flex-direction: row;
     gap: 2rem;
     padding-right: 2rem;
-  }
-
-  .navbar__link {
-    transition: 0.5s;
-    padding: .3rem;
-    border-radius: 15px;
-  }
-
-  .navbar__link:hover {
-    background-color: #34b0bE;
-    color: #fff;
   }
 
   /* ============= Home ============= */
