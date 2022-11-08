@@ -144,13 +144,7 @@ else {
     distance: "100 px"
   });
 
-  sr.reveal(".academy__container--item:nth-of-type(odd)", {
-    duration: 750,
-    origin: "top",
-    distance: "100 px"
-  });
-
-  sr.reveal(".academy__container--item:nth-of-type(even)", {
+  sr.reveal(".academy__container--item", {
     duration: 750,
     origin: "top",
     distance: "100 px"
@@ -162,7 +156,7 @@ else {
     distance: "100 px"
   });
 
-  sr.reveal(".my-habilities__container--items:nth-of-type(odd)", {
+  sr.reveal(".my-habilities__container--items", {
     duration: 750,
     origin: "top",
     distance: "100 px"
@@ -174,13 +168,7 @@ else {
     distance: "100 px"
   });
 
-  sr.reveal(".portfolio__container--card:nth-of-type(odd)", {
-    duration: 750,
-    origin: "top",
-    distance: "100 px"
-  });
-
-  sr.reveal(".portfolio__container--card:nth-of-type(even)", {
+  sr.reveal(".portfolio__container", {
     duration: 750,
     origin: "top",
     distance: "100 px"
