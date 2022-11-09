@@ -115,7 +115,7 @@ h3 {
 /* ============= REUSABLE CLASSES ============= */
 .section {
   padding: 1rem 0;
-  margin: 0 1.5rem;
+  margin: 1.5rem;
   margin-left: 0;
 }
 
@@ -387,7 +387,11 @@ h3 {
 }
 
 .academy--item {
-  width: 200px;
+  width: 100px;
+}
+
+.academy--description {
+  font-size: var(--normal-font-size);
 }
 
 .my-habilities__container {
@@ -395,7 +399,8 @@ h3 {
 }
 
 .habilities__info {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
+  margin-bottom: 2rem
 }
 
 .my-habilities__container--items,
@@ -442,6 +447,7 @@ h3 {
   margin: 1.5rem;
   overflow: auto;
   overflow-y: hidden;
+  padding: .5rem;
 }
 
 /* Boton escondido de momento */
@@ -524,6 +530,7 @@ h3 {
   margin-left: 0.1rem;
   font-weight: var(--font-semi-bold);
   font-size: var(--small-font-size);
+  text-align: center;
 }
 
 /* ============= Media queries ============= */
@@ -595,7 +602,16 @@ h3 {
   }
 
   .habilities__info {
+    margin-top: 4rem;
     font-size: 1.5em;
+  }
+
+  .hability__name {
+    font-size: var(--medium-font-size);
+  }
+
+  .btn__hability {
+    font-size: 100px;
   }
 
   /* ============= About ============= */
