@@ -628,6 +628,7 @@ h3 {
 
   .portfolio__container--items {
     grid-auto-flow: column;
+    padding: .5rem;
   }
 
   .portfolio--title {
