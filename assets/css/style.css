@@ -804,10 +804,12 @@ body.dark-theme {
 
 .dark-theme .btn-theme__container:hover {
   background-color: var(--color-secondary);
+  color: #e0e0e0;
+  font-weight: var(--font-bold);
 }
 
-.dark-theme .btn__light:hover {
-  color: #fff;
+.dark-theme .btn-theme__container *:hover {
+  color: #e0e0e0;
 }
 
 .dark-theme .show--menu {
