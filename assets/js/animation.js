@@ -12,10 +12,16 @@ sr.reveal(".vector__container", {
 if (windowSize > 768) {
 
   sr.reveal(".navbar__list", {
-    duration: 3000,
-    origin: "right",
+    duration: 500,
+    origin: "left",
     distance: "300 px"
   });
+  sr.reveal(".btn-theme__container", {
+    duration: 1000,
+    origin: "top",
+    distance: "100 px"
+  });
+
 
   sr.reveal(".presentation__container--info", {
     duration: 2000,
