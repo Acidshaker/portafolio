@@ -801,6 +801,12 @@ body.dark-theme {
   color: var(--color-secondary);
 }
 
+.navbar__link:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+
 
 .dark-theme .btn-theme__container:hover {
   background-color: var(--color-secondary);
