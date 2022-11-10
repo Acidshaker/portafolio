@@ -393,6 +393,7 @@ h3 {
 }
 
 .habilities__container {
+  padding-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -418,6 +419,10 @@ h3 {
 }
 
 /* ============= About ============= */
+
+.about {
+  padding-top: 4rem;
+}
 
 .vector__container {
   padding-top: var(--header-height);
