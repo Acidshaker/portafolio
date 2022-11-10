@@ -242,9 +242,6 @@ h3 {
 }
 
 .btn-theme__container {
-  /* position: fixed;
-  top: 0;
-  right: 6rem; */
   top: .5rem;
   right: 3.5rem;
   position: fixed;
@@ -268,7 +265,7 @@ h3 {
 .btn__light,
 .btn__dark {
   position: 1.5rem;
-  transition: .5s;
+  transition: color .5s;
 }
 
 .btn-theme__container:hover {
@@ -798,17 +795,17 @@ body.dark-theme {
   color: r
 }
 
-.dark-theme .navbar {
-  background-color: #181727;
-  box-shadow: 1px .1px 10px var(--color-secondary);
-}
-
-.dark-theme .btn__dark,
 .dark-theme .btn__light,
 .dark-theme .btn__close,
 .dark-theme .btn__open {
   color: var(--color-secondary);
 }
+
+.dark-theme .navbar {
+  background-color: #181727;
+  box-shadow: 1px .1px 10px var(--color-secondary);
+}
+
 
 .navbar__link:hover {
   background-color: var(--color-secondary);
@@ -816,16 +813,28 @@ body.dark-theme {
 }
 
 
-
 .dark-theme .btn-theme__container:hover {
-  background-color: var(--color-secondary);
+  background-color: #ff4f6f;
   color: #e0e0e0;
   font-weight: var(--font-bold);
+  font-size: 1.1em;
 }
 
-.dark-theme .btn-theme__container *:hover {
+.light__container:hover {
   color: #e0e0e0;
 }
+
+.dark-theme .btn__light:hover {
+  color: #e0e0e0;
+}
+
+
+
+.dark-theme .btn-theme__container {
+  background-color: transparent;
+  color: #e0e0e0;
+}
+
 
 .dark-theme .show--menu {
   box-shadow: 1px .1px 10px var(--color-secondary);
